@@ -1,3 +1,47 @@
 front_office_homepage:
-    path:     /
+    path:     /home
     defaults: { _controller: FrontOfficeBundle:Default:index }
+
+front_office_specialoffer:
+    path:     /specialoffer
+    defaults: { _controller: FrontOfficeBundle:Default:specialoffer }
+
+front_office_nosservices:
+    path:     /nosservices
+    defaults: { _controller:FrontOfficeBundle:Default:nosservices }
+
+front_office_contact:
+    path:     /contact
+    defaults: { _controller:FrontOfficeBundle:Default:contact }
+
+front_office_produits:
+    path:     /produits
+    defaults: { _controller:FrontOfficeBundle:Default:produits }
+
+front_office_comparer:
+    path:     /camparer
+    defaults: { _controller:FrontOfficeBundle:Default:camparer }
+
+front_office_passeoublier:
+    path:     /passeoublier
+    defaults: { _controller:FrontOfficeBundle:Default:passeoublier }
+
+front_office_mentionslegales:
+    path:     /mentionslegales
+    defaults: { _controller:FrontOfficeBundle:Default:mentionslegales }
+
+front_office_login:
+    path:     /login
+    defaults: { _controller:FrontOfficeBundle:Default:login }
+
+front_office_detailproduit:
+    path:     /detailproduit
+    defaults: { _controller:FrontOfficeBundle:Default:detailproduit } 
+
+front_office_resumerproduit:
+    path:     /resumerproduit
+    defaults: { _controller:FrontOfficeBundle:Default:resumerproduit } 
+
+front_office_inscription:
+    path:     /inscription
+    defaults: { _controller:FrontOfficeBundle:Default:inscription } 

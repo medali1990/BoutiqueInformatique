@@ -3,7 +3,7 @@
 <head>
     {% block head %}
     <meta charset="utf-8">
-    <title>Online Shop</title>
+    <title>NeoInformatique</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -42,7 +42,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a id="logoM" href="index.html"><img src="{{asset('bundles/frontoffice/assets/img/logo.png')}}" alt="Bootsshop"/></a>
+            <a id="logoM" href="{{ path('front_office_homepage') }}"><img src="{{asset('bundles/frontoffice/assets/img/logo.png')}}" alt="Bootsshop"/></a>
             <a data-target="#sidebar" data-toggle="collapse" class="btn btn-navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -50,17 +50,17 @@
             </a>
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class="active"><a href="index.html">Home	</a></li>
-                    <li class=""><a href="special_offer.html">Specials Offer</a></li>
-                    <li class=""><a href="normal.html">Delivery</a></li>
-                    <li class=""><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="{{ path('front_office_homepage') }}">Home</a></li>
+                    <li class=""><a href="{{ path('front_office_specialoffer') }}">Specials Offer</a></li>
+                    <li class=""><a href="{{ path('front_office_nosservices') }}">Our Services</a></li>
+                    <li class=""><a href="{{ path('front_office_contact') }}">Contact</a></li>
                 </ul>
                 <form action="#" class="navbar-search pull-left">
                     <input id="srchFld" type="text" placeholder="I'm looking for ..." class="search-query span5"/>
                 </form>
                 <ul class="nav pull-right">
                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Login <b class="caret"></b></a>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="front_office_login">Login <b class="caret"></b></a>
                         <div class="dropdown-menu">
                             <form class="form-horizontal loginFrm">
                                 <div class="control-group">
@@ -88,10 +88,10 @@
     <header id="header">
         <div class="row">
             <div class="span12">
-                <a href="index.html"><img src="{{ asset('bundles/frontoffice/assets/img/logo.png') }}" alt="Bootsshop"/></a>
+                <a href="{{ path('front_office_homepage') }}"><img src="{{ asset('bundles/frontoffice/assets/img/logo.png') }}" alt="Bootsshop"/></a>
                 <div class="pull-right"> <br/>
-                    <a href="product_summary.html"> <span class="btn btn-mini btn-warning"> <i class="icon-shopping-cart icon-white"></i> [ 3 ] </span> </a>
-                    <a href="product_summary.html"><span class="btn btn-mini active">$155.00</span></a>
+                    <a href="{{ path('front_office_resumerproduit') }}"> <span class="btn btn-mini btn-warning"> <i class="icon-shopping-cart icon-white"></i> [ 3 ] </span> </a>
+                    <a href="{{ path('front_office_resumerproduit') }}"><span class="btn btn-mini active">$155.00</span></a>
                     <span class="btn btn-mini">&pound;</span>
                     <span class="btn btn-mini">&euro;</span>
                 </div>
@@ -112,34 +112,34 @@
         <div class="row">
             <div class="span3">
                 <h5>ACCOUNT</h6>
-                    <a href="login.html">YOUR ACCOUNT</a>
-                    <a href="login.html">PERSONAL INFORMATION</a>
-                    <a href="login.html">ADDRESSES</a>
-                    <a href="login.html">DISCOUNT</a>
-                    <a href="login.html">ORDER HISTORY</a>
+                    <a href="{{ path('front_office_login') }}">YOUR ACCOUNT</a>
+                    <a href="{{ path('front_office_login') }}">PERSONAL INFORMATION</a>
+                    <a href="{{ path('front_office_login') }}">ADDRESSES</a>
+                    <a href="{{ path('front_office_login') }}">DISCOUNT</a>
+                    <a href="{{ path('front_office_login') }}">ORDER HISTORY</a>
             </div>
             <div class="span3">
                 <h5>INFORMATION</h5>
-                <a href="contact.html">CONTACT</a>
-                <a href="register.html">REGISTRATION</a>
-                <a href="legal_notice.html">LEGAL NOTICE</a>
-                <a href="tac.html">TERMS AND CONDITIONS</a>
-                <a href="faq.html">FAQ</a>
+                <a href="{{ path('front_office_contact') }}">CONTACT</a>
+                <a href="{{ path('front_office_inscription') }}">REGISTRATION</a>
+                <a href="{{ path('front_office_mentionslegales') }}">LEGAL NOTICE</a>
+                <a href="{{ path('front_office_mentionslegales') }}">TERMS AND CONDITIONS</a>
+                <a href="{{ path('front_office_mentionslegales') }}">FAQ</a>
             </div>
             <div class="span3">
                 <h5>OUR OFFERS</h5>
-                <a href="#">NEW PRODUCTS</a>
-                <a href="#">TOP SELLERS</a>
-                <a href="special_offer.html">SPECIAL OFFERS</a>
-                <a href="#">MANUFACTURERS</a>
-                <a href="#">SUPPLIERS</a>
+                <a href="{{ path('front_office_produits') }}">NEW PRODUCTS</a>
+                <a href="{{ path('front_office_specialoffer') }}">TOP SELLERS</a>
+                <a href="{{ path('front_office_specialoffer') }}special_offer.html">SPECIAL OFFERS</a>
+                <a href="{{ path('front_office_specialoffer') }}#">MANUFACTURERS</a>
+                <a href="{{ path('front_office_specialoffer') }}#">SUPPLIERS</a>
             </div>
             <div id="socialMedia" class="span3 pull-right">
                 <h5>SOCIAL MEDIA </h5>
-                <a href="#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/facebook.png')}}" title="facebook"/></a>
-                <a href="#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/twitter.png')}}" title="twitter"/></a>
-                <a href="#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/rss.png')}}" title="rss"/></a>
-                <a href="#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/youtube.png')}}" title="youtube"/></a>
+                <a href="{{ path('front_office_specialoffer') }}#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/facebook.png')}}" title="facebook"/></a>
+                <a href="{{ path('front_office_specialoffer') }}#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/twitter.png')}}" title="twitter"/></a>
+                <a href="{{ path('front_office_specialoffer') }}#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/rss.png')}}" title="rss"/></a>
+                <a href="{{ path('front_office_specialoffer') }}#"><img width="60" src="{{asset('bundles/frontoffice/assets/img/youtube.png')}}" title="youtube"/></a>
             </div>
         </div>
         <hr class="soft">

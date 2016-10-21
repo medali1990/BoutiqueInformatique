@@ -1,10 +1,10 @@
 cms:
     resource: "@CmsBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /cms/
 
 back_office:
     resource: "@BackOfficeBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /backoffice/
 
 front_office:
     resource: "@FrontOfficeBundle/Resources/config/routing.yml"
