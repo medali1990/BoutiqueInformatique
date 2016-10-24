@@ -45,3 +45,7 @@ front_office_resumerproduit:
 front_office_inscription:
     path:     /inscription
     defaults: { _controller:FrontOfficeBundle:Default:inscription } 
+
+front_office_ajouterproduit:
+    path:     /ajouterproduit
+    defaults: { _controller:FrontOfficeBundle:Default:ajouterproduit } 
