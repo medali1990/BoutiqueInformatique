@@ -1,51 +1,49 @@
 front_office_homepage:
-    path:     /home
-    defaults: { _controller: FrontOfficeBundle:Default:index }
+    path:     /
+    defaults: { _controller: FrontOfficeBundle:Ecommerce:index }
 
 front_office_specialoffer:
     path:     /specialoffer
-    defaults: { _controller: FrontOfficeBundle:Default:specialoffer }
+    defaults: { _controller: FrontOfficeBundle:Produit:specialoffer }
 
 front_office_nosservices:
     path:     /nosservices
-    defaults: { _controller:FrontOfficeBundle:Default:nosservices }
+    defaults: { _controller:FrontOfficeBundle:Ecommerce:nosservices }
 
 front_office_contact:
     path:     /contact
-    defaults: { _controller:FrontOfficeBundle:Default:contact }
+    defaults: { _controller:FrontOfficeBundle:Ecommerce:contact }
 
 front_office_produits:
     path:     /produits
-    defaults: { _controller:FrontOfficeBundle:Default:produits }
+    defaults: { _controller:FrontOfficeBundle:Produit:produits }
 
 front_office_comparer:
     path:     /camparer
-    defaults: { _controller:FrontOfficeBundle:Default:camparer }
+    defaults: { _controller:FrontOfficeBundle:Produit:camparer }
 
 front_office_passeoublier:
     path:     /passeoublier
-    defaults: { _controller:FrontOfficeBundle:Default:passeoublier }
+    defaults: { _controller:FrontOfficeBundle:UserTask:passeoublier }
 
 front_office_mentionslegales:
     path:     /mentionslegales
-    defaults: { _controller:FrontOfficeBundle:Default:mentionslegales }
+    defaults: { _controller:FrontOfficeBundle:Ecommerce:mentionslegales }
 
 front_office_login:
     path:     /login
-    defaults: { _controller:FrontOfficeBundle:Default:login }
+    defaults: { _controller:FrontOfficeBundle:UserTask:login }
 
 front_office_detailproduit:
     path:     /detailproduit
-    defaults: { _controller:FrontOfficeBundle:Default:detailproduit } 
+    defaults: { _controller:FrontOfficeBundle:Produit:detailproduit }
+
 
 front_office_resumerproduit:
-    path:     /resumerproduit
-    defaults: { _controller:FrontOfficeBundle:Default:resumerproduit } 
+    path:     /panier
+    defaults: { _controller:FrontOfficeBundle:UserTask:panier }
 
 front_office_inscription:
     path:     /inscription
-    defaults: { _controller:FrontOfficeBundle:Default:inscription } 
+    defaults: { _controller:FrontOfficeBundle:UserTask:inscription }
 
-front_office_ajouterproduit:
-    path:     /ajouterproduit
-    defaults: { _controller:FrontOfficeBundle:Default:ajouterproduit } 

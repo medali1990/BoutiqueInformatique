@@ -50,10 +50,11 @@
             </a>
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class=""><a href="{{ path('front_office_homepage') }}">Home</a></li>
-                    <li class=""><a href="{{ path('front_office_specialoffer') }}">Specials Offer</a></li>
-                    <li class=""><a href="{{ path('front_office_nosservices') }}">Our Services</a></li>
-                    <li class=""><a href="{{ path('front_office_contact') }}">Contact</a></li>
+                    <li class=""><a href="{{ path('back_office_homepage') }}">Dashboard</a></li>
+                    <li class=""><a href="{{ path('Back_office_ajouterproduit') }}">Gestion produits</a></li>
+                    <li class=""><a href="#">Gestion des Commandes</a></li>
+                    <li class=""><a href="#">Gestion Utilisateurs</a></li>
+                    <li class=""><a href="#">Messages</a></li>
                 </ul>
                 <form action="#" class="navbar-search pull-left">
                     <input id="srchFld" type="text" placeholder="I'm looking for ..." class="search-query span5"/>
@@ -62,20 +63,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="front_office_login">Login <b class="caret"></b></a>
                         <div class="dropdown-menu">
-                            <form class="form-horizontal loginFrm">
-                                <div class="control-group">
-                                    <input type="text" class="span2" id="inputEmail" placeholder="Email">
-                                </div>
-                                <div class="control-group">
-                                    <input type="password" class="span2" id="inputPassword" placeholder="Password">
-                                </div>
-                                <div class="control-group">
-                                    <label class="checkbox">
-                                        <input type="checkbox"> Remember me
-                                    </label>
-                                    <button type="submit" class="btn pull-right"><a href="{{ path('back_office_homepage') }}">Sign in</a></button>
-                                </div>
-                            </form>
+                            <h6><a href="{{ path('front_office_homepage') }}">Se deconnecter</a></h6>
                         </div>
                     </li>
                 </ul>

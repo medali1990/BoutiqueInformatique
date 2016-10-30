@@ -1,0 +1,26 @@
+{% extends 'BackOfficeBundle::layout.html.twig' %}
+
+{% block body %}
+<div class="row">
+
+
+
+	<div class="span9" id="mainCol">
+		<ul class="breadcrumb">
+			<li><a href="">Home</a> <span class="divider">/</span></li>
+			<li class="active">{{ titre_page }}</li>
+		</ul>
+		<h3> {{ titre_page }}</h3>
+		<hr class="soft"/>
+		<h5>Formulaire d'ajout d'un produit </h5><br/>
+
+		<form action="{{ path('Back_office_ajout') }}" method="POST">
+				{{ form_widget(form) }}
+			<input type="submit" name="Ajouter ce produit">
+		</form>
+
+
+	</div>
+</div>
+
+{% endblock %}

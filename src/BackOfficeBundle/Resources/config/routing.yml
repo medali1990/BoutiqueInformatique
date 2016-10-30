@@ -1,3 +1,11 @@
 back_office_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: BackOfficeBundle:Default:index }
+    path:     /
+    defaults: { _controller: BackOfficeBundle:Dashboard:index }
+
+Back_office_ajouterproduit:
+    path:     /ajouterproduit
+    defaults: { _controller:BackOfficeBundle:ProduitBack:ajouterproduit }
+
+Back_office_ajout:
+    path:     /ajout
+    defaults: { _controller:BackOfficeBundle:ProduitBack:ajout }
