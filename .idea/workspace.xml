@@ -2,47 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3b31dd-fa20-4df6-9c94-e0b6ca926908" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Controller/DashboardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Controller/ProduitBackController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/categoriesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/mediaRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/produitsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/tvaRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/utilisateurRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Repository/utilisateursAdressesRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/views/layout.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/views/produitback/ajouterproduit.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/EcommerceController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/ProduitController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/UserTaskController.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/ajouterproduit.html.twig" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/views/ecommerceback/index.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/MailVisiteurRepository.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Repository/MailVisiteurRepository.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/produitRepository.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Repository/produitRepository.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/camparer.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/produit/camparer.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/contact.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/ecommerce/contact.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/detailproduit.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/produit/detailproduit.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/ecommerce/index.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/inscription.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/usertask/inscription.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/login.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/usertask/login.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/mentionslegales.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/ecommerce/mentionslegales.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/nos_services.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/ecommerce/nos_services.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/passeoublier.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/usertask/passeoublier.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/produits.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/produit/produits.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/produits_1.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/produit/produits_1.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/resumerproduit.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/usertask/resumerproduit.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/Default/specialoffer.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/produit/specialoffer.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ProjectExtia.iml" afterPath="$PROJECT_DIR$/.idea/ProjectExtia.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackOfficeBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/BackOfficeBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/MailVisiteur.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/MailVisiteur.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/produit.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/produit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
     </list>
     <ignored path="ProjectExtia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,18 +34,7 @@
     <favorites_list name="ProjectExtia" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Produits.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BackOfficeBundle/Entity/Produits.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -127,6 +80,9 @@
         <option value="$PROJECT_DIR$/src/BackOfficeBundle/Entity/tva.php" />
         <option value="$PROJECT_DIR$/src/BackOfficeBundle/Entity/Categories.php" />
         <option value="$PROJECT_DIR$/src/BackOfficeBundle/Entity/Produits.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
       </list>
     </option>
   </component>
@@ -187,208 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="produitback" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProjectExtia" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BackOfficeBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,12 +218,12 @@
       <workItem from="1476900374385" duration="7174000" />
       <workItem from="1476972903634" duration="1838000" />
       <workItem from="1477726854654" duration="19071000" />
-      <workItem from="1477809136603" duration="3445000" />
+      <workItem from="1477809136603" duration="5408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33335000" />
+    <option name="totallyTimeSpent" value="35298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,9 +236,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.82117647" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.82117647" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,6 +456,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,10 +592,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackOfficeBundle/Entity/Produits.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding />
         </state>
       </provider>
