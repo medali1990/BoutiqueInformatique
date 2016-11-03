@@ -12,7 +12,7 @@ class ProduitController Extends Controller {
     public function produitsAction(){
 
         $em = $this->getDoctrine()->getEntityManager();
-        $produits = $em->getRepository('FrontOfficeBundle:produit')->findAll();
+        $produits = $em->getRepository('FrontOfficeBundle:Produit')->findAll();
 
 
         return $this->render('FrontOfficeBundle:produit:produits.html.twig',Array('produits' => $produits ,));
@@ -31,7 +31,7 @@ class ProduitController Extends Controller {
     public function detailproduitAction($id)
     {
         $em = $this->getDoctrine()->getEntityManager();
-        $produit = $em->getRepository('FrontOfficeBundle:produit')->find($id);
+        $produit = $em->getRepository('FrontOfficeBundle:Produit')->find($id);
 
         return $this->render('FrontOfficeBundle:produit:detailproduit.html.twig',Array('produit' => $produit ,));
     }

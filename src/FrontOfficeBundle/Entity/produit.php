@@ -8,9 +8,9 @@ use Doctrine\ORM\Mapping as ORM;
  * produit
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="FrontOfficeBundle\Repository\produitRepository")
+ * @ORM\Entity(repositoryClass="FrontOfficeBundle\Entity\ProduitRepository")
  */
-class produit
+class Produit
 {
     /**
      * @var integer

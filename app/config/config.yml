@@ -3,10 +3,11 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
 
+
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
-    locale: en
+    locale: fr
 
 framework:
     #esi:             ~
@@ -77,3 +78,19 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+#Fosuser Bundle
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: UserBundle\Entity\Utilisateur
+
+    from_email:
+        address:        noreply@example.com
+        sender_name:    Demo App
+
+    service:
+        mailer: fos_user.mailer.twig_swift
+    resetting:
+        email:
+            template:   email/password_resetting.email.twig

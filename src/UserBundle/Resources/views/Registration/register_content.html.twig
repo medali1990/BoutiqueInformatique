@@ -1,0 +1,26 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+
+
+
+
+<div class="row">
+
+	<div class="span9">
+    <ul class="breadcrumb">
+		<li><a href="{{ path('front_office_homepage') }}">Home</a> <span class="divider">/</span></li>
+		<li class="active">Registration</li>
+    </ul>
+	<h3> Registration</h3>	
+	<hr class="soft"/>
+	<div class="well">
+	<form action="{{ path('fos_user_registration_register') }}" {{ form_enctype(form) }} method="POST" class="fos_user_registration_register form-horizontal">
+    {{ form_widget(form) }}
+    <div>
+        <input class="btn btn-large" type="submit" value="{{ 'registration.submit'|trans }}" />
+    </div>
+</form>
+</div>
+
+</div>
+</div>

@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * MailVisiteur
  *
  * @ORM\Table()
- * @ORM\Entity(repositoryClass="FrontOfficeBundle\Repository\MailVisiteurRepository")
+ * @ORM\Entity(repositoryClass="FrontOfficeBundle\Entity\MailVisiteurRepository")
  */
 class MailVisiteur
 {

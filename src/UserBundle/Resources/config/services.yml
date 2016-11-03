@@ -1,0 +1,10 @@
+services:
+      user.formsuccess_listener:
+        class: UserBundle\EventListener\FormSuccessListener
+        arguments: [@router]
+        tags:
+            - { name: kernel.event_subscriber }
+
+#    user.example:
+#        class: UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
