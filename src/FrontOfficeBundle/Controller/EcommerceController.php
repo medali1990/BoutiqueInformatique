@@ -3,7 +3,7 @@
 namespace FrontOfficeBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use FrontOfficeBundle\Entity\produit;
+use FrontOfficeBundle\Entity\Produit;
 use FrontOfficeBundle\Form\produitType;
 use FrontOfficeBundle\Entity\MailVisiteur;
 use FrontOfficeBundle\Form\MailVisiteurType;
@@ -21,6 +21,8 @@ class EcommerceController extends Controller
 
     public function nosservicesAction()
     {
+
+
         return $this->render('FrontOfficeBundle:ecommerce:nos_services.html.twig');
     }
 
