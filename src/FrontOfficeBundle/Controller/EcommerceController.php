@@ -28,6 +28,7 @@ class EcommerceController extends Controller
 
     public function contactAction()
     {
+        //mailutilisateur
         $mailvisiteur = new MailVisiteur();
 
         $form = $this->createForm(new MailVisiteurType ,$mailvisiteur);
