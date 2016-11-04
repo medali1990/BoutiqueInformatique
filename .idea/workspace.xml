@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3b31dd-fa20-4df6-9c94-e0b6ca926908" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/produit.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Entity/Produit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/EcommerceController.php" afterPath="$PROJECT_DIR$/src/FrontOfficeBundle/Controller/EcommerceController.php" />
     </list>
     <ignored path="ProjectExtia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +29,11 @@
     <favorites_list name="ProjectExtia" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FrontOfficeBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="255">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
@@ -45,7 +43,7 @@
       <file leaf-file-name="EcommerceController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FrontOfficeBundle/Controller/EcommerceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="336">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#48#105#0#PHP" expanded="true" />
@@ -155,7 +153,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +281,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,12 +371,13 @@
       <workItem from="1477809136603" duration="5408000" />
       <workItem from="1477916206625" duration="15317000" />
       <workItem from="1478205893588" duration="1114000" />
-      <workItem from="1478207052515" duration="3047000" />
+      <workItem from="1478207052515" duration="3277000" />
+      <workItem from="1478240409438" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54776000" />
+    <option name="totallyTimeSpent" value="55054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,9 +390,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.82117647" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.82117647" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -743,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontOfficeBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
@@ -751,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontOfficeBundle/Controller/EcommerceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="336">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#48#105#0#PHP" expanded="true" />
