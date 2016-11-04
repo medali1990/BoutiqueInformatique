@@ -341,4 +341,27 @@ class Produits
     {
         return $this->tva;
     }
+
+    /**
+     * Set media
+     *
+     * @param \BackOfficeBundle\Entity\Media $media
+     * @return Produits
+     */
+    public function setMedia(\BackOfficeBundle\Entity\Media $media)
+    {
+        $this->media = $media;
+
+        return $this;
+    }
+
+    /**
+     * Get media
+     *
+     * @return \BackOfficeBundle\Entity\Media 
+     */
+    public function getMedia()
+    {
+        return $this->media;
+    }
 }

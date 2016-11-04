@@ -12,6 +12,13 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class UtilisateursAdresses
 {
+
+    /**
+     * @ORM\ManyToOne(targetEntity="UserBundle\Entity\Utilisateur",inversedBy="utilisateuradresse")
+     * @ORM\JoinColumn(nullable=false)
+     */
+
+    private $utilisateur;
     /**
      * @var integer
      *
@@ -300,5 +307,28 @@ class UtilisateursAdresses
     public function getUtilisateurId()
     {
         return $this->utilisateurId;
+    }
+
+    /**
+     * Set utilisateur
+     *
+     * @param \UserBundle\Entity\Utilisateur $utilisateur
+     * @return UtilisateursAdresses
+     */
+    public function setUtilisateur(\UserBundle\Entity\Utilisateur $utilisateur)
+    {
+        $this->utilisateur = $utilisateur;
+
+        return $this;
+    }
+
+    /**
+     * Get utilisateur
+     *
+     * @return \UserBundle\Entity\Utilisateur 
+     */
+    public function getUtilisateur()
+    {
+        return $this->utilisateur;
     }
 }

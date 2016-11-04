@@ -28,7 +28,7 @@ class EcommerceController extends Controller
 
     public function contactAction()
     {
-        //mailutilisateur
+
         $mailvisiteur = new MailVisiteur();
 
         $form = $this->createForm(new MailVisiteurType ,$mailvisiteur);
@@ -41,6 +41,7 @@ class EcommerceController extends Controller
                 $em = $this->getDoctrine()->getEntityManager();
                 $em->persist($mailvisiteur);
                 $em->flush();
+
 
                 return $this->redirect($this->generateUrl('front_office_homepage'));
             }

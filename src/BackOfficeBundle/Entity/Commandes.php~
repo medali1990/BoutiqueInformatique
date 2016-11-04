@@ -1,0 +1,192 @@
+<?php
+
+namespace BackOfficeBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Commandes
+ *
+ * @ORM\Table()
+ * @ORM\Entity(repositoryClass="BackOfficeBundle\Entity\CommandesRepository")
+ */
+class Commandes
+{
+
+    /**
+     * @ORM\ManyToOne(targetEntity="UserBundle\Entity\Utilisateur",inversedBy="commandes")
+     * JoinColumn(nullable=false)
+     */
+    private $utilisateur;
+
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="valider", type="blob")
+     */
+    private $valider;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date", type="datetime")
+     */
+    private $date;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="utilisateur_id", type="integer")
+     */
+    private $utilisateurId;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="reference", type="integer")
+     */
+    private $reference;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="produits", type="string", length=255)
+     */
+    private $produits;
+
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set valider
+     *
+     * @param string $valider
+     * @return Commandes
+     */
+    public function setValider($valider)
+    {
+        $this->valider = $valider;
+
+        return $this;
+    }
+
+    /**
+     * Get valider
+     *
+     * @return string 
+     */
+    public function getValider()
+    {
+        return $this->valider;
+    }
+
+    /**
+     * Set date
+     *
+     * @param \DateTime $date
+     * @return Commandes
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+
+        return $this;
+    }
+
+    /**
+     * Get date
+     *
+     * @return \DateTime 
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set utilisateurId
+     *
+     * @param integer $utilisateurId
+     * @return Commandes
+     */
+    public function setUtilisateurId($utilisateurId)
+    {
+        $this->utilisateurId = $utilisateurId;
+
+        return $this;
+    }
+
+    /**
+     * Get utilisateurId
+     *
+     * @return integer 
+     */
+    public function getUtilisateurId()
+    {
+        return $this->utilisateurId;
+    }
+
+    /**
+     * Set reference
+     *
+     * @param integer $reference
+     * @return Commandes
+     */
+    public function setReference($reference)
+    {
+        $this->reference = $reference;
+
+        return $this;
+    }
+
+    /**
+     * Get reference
+     *
+     * @return integer 
+     */
+    public function getReference()
+    {
+        return $this->reference;
+    }
+
+    /**
+     * Set produits
+     *
+     * @param string $produits
+     * @return Commandes
+     */
+    public function setProduits($produits)
+    {
+        $this->produits = $produits;
+
+        return $this;
+    }
+
+    /**
+     * Get produits
+     *
+     * @return string 
+     */
+    public function getProduits()
+    {
+        return $this->produits;
+    }
+}

@@ -13,13 +13,6 @@ use Symfony\Component\Validator\Constraints\DateTime;
  */
 class MailVisiteur
 {
-
-    public function __construct()
-    {
-        $this->date = new \DateTime();
-
-    }
-
     /**
      * @var integer
      *
@@ -164,28 +157,5 @@ class MailVisiteur
     public function getMessage()
     {
         return $this->message;
-    }
-
-    /**
-     * Set date
-     *
-     * @param \DateTime $date
-     * @return MailVisiteur
-     */
-    public function setDate($date)
-    {
-        $this->date = $date;
-
-        return $this;
-    }
-
-    /**
-     * Get date
-     *
-     * @return \DateTime 
-     */
-    public function getDate()
-    {
-        return $this->date;
     }
 }

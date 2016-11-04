@@ -111,27 +111,4 @@ class Utilisateur extends BaseUser
     {
         return $this->commandes;
     }
-
-    /**
-     * Set date
-     *
-     * @param \DateTime $date
-     * @return Utilisateur
-     */
-    public function setDate($date)
-    {
-        $this->date = $date;
-
-        return $this;
-    }
-
-    /**
-     * Get date
-     *
-     * @return \DateTime 
-     */
-    public function getDate()
-    {
-        return $this->date;
-    }
 }

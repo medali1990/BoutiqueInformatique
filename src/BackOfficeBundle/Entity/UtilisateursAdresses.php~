@@ -12,6 +12,13 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class UtilisateursAdresses
 {
+
+    /**
+     * @ORM\ManyToOne(targetEntity="UserBundle\Entity\Utilisateur",inversedBy="utilisateuradresse")
+     * @ORM\JoinColumn(nullable=false)
+     */
+
+    private $utilisateur;
     /**
      * @var integer
      *
