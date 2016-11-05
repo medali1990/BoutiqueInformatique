@@ -26,10 +26,6 @@ front_office_passeoublier:
     path:     /passeoublier
     defaults: { _controller:FrontOfficeBundle:UserTask:passeoublier }
 
-front_office_mentionslegales:
-    path:     /mentionslegales
-    defaults: { _controller:FrontOfficeBundle:Ecommerce:mentionslegales }
-
 front_office_login:
     path:     /login
     defaults: { _controller:FrontOfficeBundle:UserTask:login }

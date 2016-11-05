@@ -23,6 +23,8 @@ class AppKernel extends Kernel
             new CmsBundle\CmsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new UserBundle\UserBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new PagesBundle\PagesBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

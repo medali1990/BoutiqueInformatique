@@ -9,7 +9,7 @@ use Symfony\Component\Validator\Constraints\DateTime;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="utilisateurs")
+ * @ORM\Table()
  */
 class Utilisateur extends BaseUser
 {

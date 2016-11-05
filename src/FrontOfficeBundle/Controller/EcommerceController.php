@@ -52,7 +52,7 @@ class EcommerceController extends Controller
 
     public function mentionslegalesAction()
     {
-        return $this->render('FrontOfficeBundle:ecommerce:mentionslegales.html.twig');
+        return $this->render('FrontOfficeBundle:ecommerce:pagesdynamique.html.twig');
     }
 
 

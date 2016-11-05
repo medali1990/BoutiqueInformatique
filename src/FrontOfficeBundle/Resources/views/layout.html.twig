@@ -96,7 +96,7 @@
     <div  id="footerSection">
         <div class="row">
             <div class="span3">
-                <h5>ACCOUNT</h6>
+                <h5>ACCOUNT</h5>
                     <a href="{{ path('front_office_login') }}">YOUR ACCOUNT</a>
                     <a href="{{ path('front_office_login') }}">PERSONAL INFORMATION</a>
                     <a href="{{ path('front_office_login') }}">ADDRESSES</a>
@@ -107,9 +107,7 @@
                 <h5>INFORMATION</h5>
                 <a href="{{ path('front_office_contact') }}">CONTACT</a>
                 <a href="{{ path('front_office_inscription') }}">REGISTRATION</a>
-                <a href="{{ path('front_office_mentionslegales') }}">LEGAL NOTICE</a>
-                <a href="{{ path('front_office_mentionslegales') }}">TERMS AND CONDITIONS</a>
-                <a href="{{ path('front_office_mentionslegales') }}">FAQ</a>
+                 {%  render(controller('PagesBundle:Default:menu')) %}
             </div>
             <div class="span3">
                 <h5>OUR OFFERS</h5>

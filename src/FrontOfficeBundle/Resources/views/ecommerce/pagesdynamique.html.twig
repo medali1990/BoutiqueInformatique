@@ -1,0 +1,21 @@
+{% extends 'FrontOfficeBundle::layout.html.twig' %}
+
+{% block body %}
+
+<div class="row">
+{{ include("FrontOfficeBundle:sidebar:sidebar.html.twig") }}
+
+	<div class="span9">
+    <ul class="breadcrumb">
+		<li><a href="{{ path('front_office_homepage') }}">Home</a> <span class="divider">/</span></li>
+		<li class="active">Legal Notice</li>
+    </ul>
+	<h3> {{ page.titre | raw }}</h3>
+	<hr class="soft"/>
+	<div id="legalNotice">
+		{{ page.contenu | raw  }}
+	</div>
+	</div>
+</div>
+
+{% endblock %}

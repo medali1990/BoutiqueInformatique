@@ -24,7 +24,7 @@ class Media
     /**
      * @var string
      *
-     * @ORM\Column(name="path", type="string", length=80)
+     * @ORM\Column(name="path", type="string", length=255)
      */
     private $path;
 
